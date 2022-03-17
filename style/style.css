@@ -1,0 +1,48 @@
+body {
+    background: #909045d9;
+}
+/*------sideNave------*/
+
+#sideNave{
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	right: -250px;
+	top: 0;
+	background: #009688;
+	z-index: 2;
+	transition: 0.5s;
+}
+#sideNave ul li{
+	list-style: none;
+	margin: 50px 20px;
+}
+#sideNave ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+#sideNaveBtn{
+	width: 50px;
+	height: 50px;
+	color: #009688;
+	position: fixed;
+	text-align: center;
+	right: 30px;
+	top: 20px;
+	border-radius: 3px;
+	z-index: 3;
+	cursor: pointer;
+}
+#sideNaveBtn img{
+	width: 20px;
+	margin-top: 15px;
+}
+@media screen and (max-width: 770px){
+	.banner-text h1{
+		font-size: 44px;
+	}
+	.bannerBtn a{
+		display: block;
+		margin: 20px auto;
+	}
+}
