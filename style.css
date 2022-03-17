@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial black;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#btn, #btn1{
+    font-size: 22px;
+    padding: 15px;
+    background: #ff5200;
+    color: #fff;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    margin: 15px;
+}
