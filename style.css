@@ -1,0 +1,21 @@
+body{
+    background: #a07f6ffc;
+}
+.container{
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+}
+.digital-clock {
+    background: #633063;
+    color: #f1f1f1;
+    width: 55%;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    margin: 150px auto;
+    border: 20px solid #d07f7f;
+}
+h1#clockTime {
+    display: inline-block;
+}
